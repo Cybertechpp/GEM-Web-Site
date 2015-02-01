@@ -15,9 +15,9 @@
 
 		var defaults = $.extend({
 			animateIn: false,
-			icon: 'images/slickhover/plus-white.png',
-			color: '#000',
-			opacity: 0.2,
+			icon: 'images/slickhover/learn-more.png',
+			color: '#fff',
+			opacity: .1,
 			speed: 400
 		}, options);
 
@@ -98,10 +98,10 @@
 
 
 $(window).load(function(){
-    $(".slickHoverPlusWhite").slickhover({icon:"images/slickhover/plus-white.png", color:"#000"});
-    $(".slickHoverPlusWhite1").slickhover({icon:"images/slickhover/plus-white.png", color:"#000"});
-    $(".slickHoverPlusWhite2").slickhover({icon:"images/slickhover/plus-white.png", color:"#000"});
-    $(".slickHoverPlusWhite3").slickhover({icon:"images/slickhover/plus-white.png", color:"#000"});
+    $(".slickHoverPlusWhite").slickhover({});
+    $(".slickHoverPlusWhite1").slickhover({});
+    $(".slickHoverPlusWhite2").slickhover({});
+    $(".slickHoverPlusWhite3").slickhover({});
 
 });
 
