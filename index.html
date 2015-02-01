@@ -38,7 +38,8 @@
 	background:white;
 	//margin-top: 25%;
 	margin-left:auto;
-	margin-right:auto
+	margin-right:auto;
+	padding-bottom:15px
 	}
 	.trans-modal>.modal-content>hr{
 	width:75%
@@ -54,13 +55,14 @@
 	color:white;
 	font-size:18px
 	}
+	.DN{display:none!important}
 	</style>
 	
 </head>
 
 <body>
 	<div class="trans-modal">
-		<div style="height:25%">
+		<div style="height:15%">
 		
 		</div>
 		<div class="modal-content">
@@ -70,8 +72,8 @@
 			<br>
 			<p>You will be notified on all progress regarding the site!</p>
 			<br>
-			<input type="Email " placeholder="example@email.com"/>
-			<button type="submit">Submit</button>
+			<input id="eamil" type="Email " placeholder="example@email.com"/>
+			<button id="submit" type="submit" onclick="RegisterEmail()">Submit</button>
 		</div>
 	</div>
     <div class="utility-nav">
@@ -102,7 +104,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">About GEM</a>
+                            <li><a href="About/About-us.html">About GEM</a>
                             </li>
                             <li><a href="#">Why Join GEM</a>
                             </li>
@@ -146,7 +148,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">The Mandela</a>
+                        <a href="#">The Mandala</a>
                     </li>
                        <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Support<span class="caret"></span></a>
@@ -251,8 +253,8 @@
                     <div class="featured"><a href="#">Featured</a></div>
                     <div class="project-title"><a class="title" href="#"><h3>Permaculture Olympics</h3></a>
                     </div>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident...</p>
-                    <p class="meta">Tags: <span class="highlight"><a href="#">Featured</a>, <a href="#">Peace Project</a>, <a href="#">Education</a></span>
+                    <p>Greening the planet is fun when we bring competitive games into the garden! The goal of the games is to provide clean water, organic food and shelter for all. At the end of the day, everybody wins!</p>
+                    <p class="meta">Tags: <span class="highlight"><a href="#">Featured Projects</a>, <a href="#">Peace Project</a>, <a href="#">Education</a></span>
                     </p>
                     <a href="#"><img src="images/featured-project.jpg"></a>
                 </div>
@@ -263,7 +265,7 @@
                     <div class="article">
                     <div class="announcements col-md-5"><img src="images/play-it-forward.jpg" alt="play it forward"></div>
                     <div class="announcements col-md-7"><h2><a href="#">Play it Forward</a></h2>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos...</p</div>
+                    <p>The official GEM game! Spin the wheel and receive a simple act of kindness to perform in your community. Pass it along to create...</p</div>
                     >
                     </div>
                 </div>
@@ -305,6 +307,47 @@
     <script src="js/custom.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+			<script>
+			function getCookie(cname) {
+			var name = cname + "=";
+			var ca = document.cookie.split(';');
+			for(var i=0; i<ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1);
+			if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+			}
+			return "";
+			}
+			
+			function setCookie(cname,cvalue,exdays) {
+			var d = new Date();
+			d.setTime(d.getTime() + (exdays*24*60*60*1000));
+			var expires = "expires=" + d.toGMTString();
+			document.cookie = cname+"="+cvalue+"; "+expires;
+			}
+			$(function(){
+			if ((getCookie("allowed")) !== ""){
+			$(".trans-modal").addClass("DN")
+			console.log("HIDE")
+			}
+			
+			})
+			function RegisterEmail(){
+			var email = $("#email").val
+			$.ajax({
+			type: 'GET',
+			url: "/service/addemail.php?email="+email,
+			success: function(data){
+			alert("SENT REQUEST")
+			authorize()
+			}
+			});
+			}
+			function authorize(){
+			setCookie("allowed","true",999);
+			location.reload();
+			}
+			</script>
 </body>
 
 </html>
