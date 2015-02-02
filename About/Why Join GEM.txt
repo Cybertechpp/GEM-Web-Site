@@ -25,7 +25,8 @@
 </head>
 
 <body>
-	<div class="trans-modal">
+<!--REmove "DN"-->
+	<div class="trans-modal DN">
 		<div style="height:15%">
 		
 		</div>
