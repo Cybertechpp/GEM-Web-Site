@@ -472,6 +472,18 @@ height:250px
 /*Height-50px*/
 height:50px
 }
+.h-25{
+/*Height-50px*/
+height:25px
+}
+.h-5{
+/*Height-50px*/
+height:5px
+}
+.tac{
+/*Text Align Center*/
+text-align:center
+}
 
 /*START MODAL*/
 	.trans-modal{
@@ -508,6 +520,10 @@ height:50px
 	}
 	.DN{display:none!important}
 	/*END MODAL*/
+	.f4{
+	/*Font Size #4*/
+	font-size:18px
+	}
 
 
 
