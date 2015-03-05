@@ -52,18 +52,18 @@ Shadowbox.init();
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">GEM Global Network</a>
+                <a class="navbar-brand" href="index.php">GEM Global Network</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="about/about-us.html">About GEM</a>
+                            <li><a href="about/about-us.php">About GEM</a>
                             </li>
-                            <li><a href="about/why-join-gem.html">Why Join GEM</a>
+                            <li><a href="about/why-join-gem.php">Why Join GEM</a>
                             </li>
-                            <li><a href="about/gems-headquarters.html">GEMs Headquarters</a>
+                            <li><a href="about/gems-headquarters.php">GEMs Headquarters</a>
                             </li>
                             <li><a href="#">Our Team</a>
                             </li>
@@ -116,7 +116,7 @@ Shadowbox.init();
                         </ul>
                     </li>
 
-                    <li><a href="#">Contact</a>
+                    <li><a href="contacts.php">Contact</a>
                     </li>
 
                 </ul>
