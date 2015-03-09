@@ -8,17 +8,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="theme-color" content="#5f9b5c">
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="http://gemmovement.com/images/favicon.ico">
 
     <title>GEM Global Network</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://gemmovement.com/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="shadowbox.css">
-<script type="text/javascript" src="shadowbox.js"></script>
+    <link href="http://gemmovement.com/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://gemmovement.com/shadowbox.css">
+<script type="text/javascript" src="http://gemmovement.com/shadowbox.js"></script>
 <script type="text/javascript">
 Shadowbox.init();
 </script>
@@ -52,18 +52,18 @@ Shadowbox.init();
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">GEM Global Network</a>
+                <a class="navbar-brand" href="http://gemmovement.com">GEM Global Network</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="about/about-us.php">About GEM</a>
+                            <li><a href="http://gemmovement.com/about/about-us.php">About GEM</a>
                             </li>
-                            <li><a href="about/why-join-gem.php">Why Join GEM</a>
+                            <li><a href="http://gemmovement.com/about/why-join-gem.php">Why Join GEM</a>
                             </li>
-                            <li><a href="about/gems-headquarters.php">GEMs Headquarters</a>
+                            <li><a href="http://gemmovement.com/about/gems-headquarters.php">GEMs Headquarters</a>
                             </li>
                             <li><a href="#">Our Team</a>
                             </li>
@@ -95,7 +95,7 @@ Shadowbox.init();
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href= "donate.html">GEM Members</a>
+                            <li><a href= "http://gemmovement.com/donate.html">GEM Members</a>
                             </li>
                             <li><a href="#">Community Agreements</a>
                             </li>
@@ -116,7 +116,7 @@ Shadowbox.init();
                         </ul>
                     </li>
 
-                    <li><a href="contacts.php">Contact</a>
+                    <li><a href="http://gemmovement.com/contacts.php">Contact</a>
                     </li>
 
                 </ul>
