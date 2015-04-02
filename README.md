@@ -12,7 +12,9 @@
  - Allow People to Specify How The Money Should Be Used
  - Allow Anyone to Post Projects On Site
  - Allow Anyone to Support Projects
- - ####Technical
+ 
+####Technical
+-
   - Moneys will be placed into a seperate PayPal Account.
   - A Fee will be deducted for Server Upkeep
   - Staff Has to Approve that the Project that requested the money meets Donators Specifications
