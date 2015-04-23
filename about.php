@@ -11,7 +11,7 @@
         <li class="tab col s2 "><a class="active" href="#about">About</a></li>
         <li class="tab col s3"><a href="#join">Why Join</a></li>
         <li class="tab col s2"><a href="#headquarters">GEM Headquarters</a></li>
-        <li class="tab col s2"><a href="#test4">Our Team</a></li>
+        <li class="tab col s2"><a href="#ourteam">Our Team</a></li>
         <li class="tab col s2"><a href="#test4">Partners</a></li>
       </ul>
   </div>
@@ -24,7 +24,7 @@
 		<li class="tab"><a href="#!" id="a1">About</a></li>
 		<li class="tab"><a  id="a2">Why Join</a></li>
 		<li class="tab"><a href="about.php#headquarters" id="a3">GEM Headquarters</a></li>
-		<li class="tab"><a href="about.php#test4" id="a4">Our Team</a></li>
+		<li class="tab"><a href="about.php#ourteam" id="a4">Our Team</a></li>
 		<li class="tab"><a href="about.php#test4" id="a5">Partners</a></li>
 	  </ul>
 
@@ -106,7 +106,73 @@
     
         
     </div>
-    <div id="test4" class="col s12">Test 4</div>
+             
+    <div id="ourteam" class="col s12">
+    <h1 class="header center green-text">Our Team</h1> 
+        
+      <div class="row">
+      <div class="col s12 m4">
+        <div class="card-panel z-depth-2 teal">
+            <div class="center"><img src="images/team/blackhorse.jpg"></div>
+        </div>
+      </div>  
+          <div class="col s12 m8">
+        <div class="card-panel z-depth-2 teal">
+            <span class="white-text"><h4>Blackhorse Shasta</h4> is the visionary founder and executive director of Circle of Children. He has been directing a diverse array of experiential programs for the past 8 years. His work includes community building, volunteer coordinating, program design and development, networking, fundraising and the onsite management of the 60 acres of land on Triangle Lake where Circle of Children has its home. The experiential programs he creates for Circle of Children inspire teens, young adults, parents and teachers to rethink the current paradigms of education.
+          </span>
+        </div>
+      </div> 
+    </div> 
+        
+        <div class="row">
+      <div class="col s12 m4">
+        <div class="card-panel z-depth-2 purple darken-3">
+            <div class="center"><img src="images/team/chauce.jpg"></div>
+        </div>
+      </div>  
+          <div class="col s12 m8">
+        <div class="card-panel z-depth-2 purple darken-3">
+            <span class="white-text"><h4>Chauce Coxon</h4> is the co-founder and director of Circle of Children. He is the program manager for Circle’s Youth Immersion Program for Sustainability and the manager of a 2 acre permaculture garden. He has received his Permaculture Design Certificate (PDC) through Aprovecho in Oregon. As an empowered youth taking on a variety of roles and responsibilities, he is also a website designer, community builder, event planner and land steward. His experience co-facilitating the operation of a non-profit have inspired him to help others realize their passions and gifts that they have to offer to the world and to activate them through selfless service to humanity.
+          </span>
+        </div>
+      </div> 
+    </div> 
+        
+        <div class="row">
+      <div class="col s12 m4">
+        <div class="card-panel z-depth-2 blue darken-4">
+            <div class="center"><img src="images/team/carolina.jpg"></div>
+        </div>
+      </div>  
+          <div class="col s12 m8">
+        <div class="card-panel z-depth-2 blue darken-4">
+            <span class="white-text"><h4>Carolina Allen</h4> studied early childhood development at the University of Oregon and completed her Early Childhood Teacher Training at the Eugene Waldorf School. Carolina serves as Secretary on the board of Circle of Children and has volunteered as a teacher and artist for many community events. She is an active member of the Eugene Waldorf School Arts and Enrichment program, the Anthroposophical Society, and the Eugene Waldorf Festival Eurythmy Troupe. Carolina currently works as the director and lead teacher at the Mother Tree while also writing and illustrating a children’s book.
+          </span>
+        </div>
+      </div> 
+    </div> 
+        
+        
+        <div class="row">
+      <div class="col s12 m4">
+        <div class="card-panel z-depth-2 red darken-4">
+            <div class="center"><img src="images/team/meghan.jpg"></div>
+        </div>
+      </div>  
+          <div class="col s12 m8">
+        <div class="card-panel z-depth-2 red darken-4">
+            <span class="white-text"><h4>Meghan Machado</h4> is the administrative manager of Circle of Children. She received her BA in Anthropology at the University of California in Santa Cruz, and graduated summa cum laude and Phi Beta Kappa. She is responsible for nonprofit management, program development, professional writing, grant writing and research. Prior to her position at Circle of Children, she worked as a forensic lab intern, tropical field biologist and field archaeologist.
+          </span>
+        </div>
+      </div> 
+    </div> 
+        
+        
+        
+        
+    </div>
+             
+             
   </div>
       </div> 
       </div>
