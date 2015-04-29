@@ -1,40 +1,44 @@
-<!-- Start Footer
-    ================================================== -->
-    <div class="container footer">
-        <!-- FOOTER -->
-        <footer>
-            <div class="row">
-               
-                <div class="col-md-5">
-                    <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br />
-                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a> 
-                    </p>
-                </div>
-                <div class="col-md-4"><p>A project of <a href="http://www.circleofchildren.org" target="_blank">Circle of Children</a> &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p></div>
-                 <div class="col-md-3">
-                 <p class="pull-right"><a href="#">Back to top</a>
-                </p>
-                </div>
-            </div>
-        </footer>
+ <footer class="page-footer green">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">GEM</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <!--.footer -->
-    <!-- /.container -->
+    <div class="footer-copyright">
+      <div class="container">
+      A project of <a class="orange-text text-lighten-3" href="http://www.circleofchildren.org/">Circle of Children</a>
+      </div>
+    </div>
+  </footer>
 
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://gemmovement.com/js/jquery.min.js"></script>
-    <script src="http://gemmovement.com/js/bootstrap.min.js"></script>
-    <script src="http://gemmovement.com/js/custom.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="http://gemmovement.com/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="http://gemmovement.com/js/modal.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="http://gemmovement.com/js/bootstrap.min.js"></script>
-    <script src="http://gemmovement.com/js/docs.min.js"></script>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
   </body>
 </html>
