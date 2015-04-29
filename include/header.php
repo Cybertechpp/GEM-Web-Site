@@ -33,16 +33,16 @@
         
           <li><a href="about.php">About</a></li>
           <li><a href="mandala.php">Mandala</a></li>
-          <li><a href="#">Support</a></li>
+          <li><a href="donate.php">Donate</a></li>
           <li><a href="contact.php">Contact</a></li>
       </ul>  
         
 
       <ul id="nav-mobile" class="side-nav">
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">About<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
+          <li><a href="about.php">About</a></li>
           <li><a href="mandala.php">Mandala</a></li>
-          <li><a href="#p">Support</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="donate.php">Support</a></li>
+          <li><a href="contact.php">Contact</a></li>
       </ul>
         
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>

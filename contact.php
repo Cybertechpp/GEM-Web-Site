@@ -8,7 +8,7 @@
 		<div class="row">
 			<div class="col s12">
 				<div class="card-panel green">
-				<span class="white-text"><h5 class="header center"> GEM is a project of <a class="orange-text text-lighten-3" href="www.circleofchildren.org">Circle of Children</a><h4>
+				<span class="white-text"><h5 class="header center"> GEM is a project of <a class="orange-text text-lighten-3" href="http://www.circleofchildren.org">Circle of Children</a><h4>
 				</span>
 				</div>
 			</div>
