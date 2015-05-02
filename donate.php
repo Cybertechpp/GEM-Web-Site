@@ -6,7 +6,7 @@
       <br><br>
       <h1 class="header center green-text">Donate</h1>
       <div class="row center">
-          <img width="600" height="400" src="img/gemdonate.jpg">
+          <img class= "responsive-img" src="img/gemdonate.jpg">
         <h4 class="header col s12 light">Support Peace Projects</h4>
       </div>
       <br><br> 

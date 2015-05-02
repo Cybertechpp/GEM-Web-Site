@@ -23,9 +23,10 @@
             <div class="card-content ">
               <p>Youth-led change starts here! Create a project or join an existing one.</p>
             </div>
+            <!--
             <div class="card-action">
               <a href="#">Learn More</a>
-            </div>
+            </div>-->
           </div>
         </div>
                
@@ -37,10 +38,7 @@
             </div>
             <div class="card-content white-text">
               <p>Connect with a network of empowered global changemakers.</p>
-            </div>
-            <div class="card-action deep-purple lighten-5">
-               <a href="#">Learn More</a>
-            </div>
+            </div>         
           </div>
         </div>
                
@@ -53,9 +51,6 @@
             <div class="card-content white-text">
               <p>Pool resources to support youth-led change across the world.</p>
             </div>
-            <div class="card-action orange lighten-5">
-              <a href="#">Learn More</a>
-            </div>
           </div>
         </div>
                
@@ -67,9 +62,6 @@
             </div>
             <div class="card-content white-text">
               <p>Gain free access to tools and guides that will help you on your journey.</p>
-            </div>
-            <div class="card-action green lighten-5">
-              <a href="#">Learn More</a>
             </div>
           </div>
         </div>

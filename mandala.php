@@ -5,17 +5,29 @@
       <br><br>
       <h1 class="header center green-text">The GEM Mandala</h1>
       <div class="row center">
-          <img width="400" height="400" src="img/mandala-small.jpg">
+          <img class="responsive-img" src="img/mandala-small.jpg">
         <h4 class="header col s12 light">12 Human Rays of Youth Empowerment</h4>
       </div>
       
-      <p>Your journey opens with a 12 rayed sun, where each ray represents an aspect within the whole spectrum of human creation. 
+        
+        <div class="row">
+        <div class="col s12 m12">
+          <div class="card grey lighten-5 z-depth-2">
+            <div class="card-content">
+              <p>Your journey opens with a 12 rayed sun, where each ray represents an aspect within the whole spectrum of human creation. 
 	  The rays are independent yet interconnected, to represent symbiotic relations within a balanced ecosystem. 
 	  The elements hold us together and nourish our beings. The sun empowers life, it embraces our earthly existence with its warmth and light. 
 	  A human resides in the center of the mandala , representing the 13th aspect of human creation: Council. 
 	  In the organizational body of GEM, this is where the International Youth Council is seated. 
 	  As sovereign beings that choose how we govern our world, this center point is a reflection of each and every one of us. 
-	  It is the center of the mandala, influencing all 12 rays of human creation that revolve around it. </p>  
+	  It is the center of the mandala, influencing all 12 rays of human creation that revolve around it. </p> 
+            </div>
+          </div>
+        </div>
+      </div>
+        
+        
+       
           
       <div class="row">
 	  
